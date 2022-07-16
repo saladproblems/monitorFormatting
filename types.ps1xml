@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Types>
+  <Type>
+    <Name>Microsoft.Management.Infrastructure.CimInstance#root/wmi/WmiMonitorID</Name>
+    <Members>
+      <ScriptProperty>
+        <Name>ManufacturernameChar</Name>
+        <GetScriptBlock>
+          [char[]]$this.Manufacturername -join $null -replace '\s+$'
+        </GetScriptBlock>
+      </ScriptProperty>
+      <ScriptProperty>
+        <Name>ProductCodeIDChar</Name>
+        <GetScriptBlock>
+          [char[]]$this.ProductCodeID -join $null -replace '\s+$'
+        </GetScriptBlock>
+      </ScriptProperty>
+      <ScriptProperty>
+        <Name>SerialNumberIDChar</Name>
+        <GetScriptBlock>
+          [char[]]$this.SerialNumberID -join $null -replace '\s+$'
+        </GetScriptBlock>
+      </ScriptProperty>
+      <ScriptProperty>
+        <Name>UserFriendlyNameChar</Name>
+        <GetScriptBlock>
+          [char[]]$this.UserFriendlyName -join $null -replace '\s+$'
+        </GetScriptBlock>
+      </ScriptProperty>
+    </Members>
+  </Type>
+</Types>
