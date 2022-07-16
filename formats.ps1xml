@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+    <ViewDefinitions>
+        <View>
+            <Name>Microsoft.Management.Infrastructure.CimInstance#root/wmi/WmiMonitorID</Name>
+            <ViewSelectedBy>
+                <TypeName>Microsoft.Management.Infrastructure.CimInstance#root/wmi/WmiMonitorID</TypeName>
+            </ViewSelectedBy>
+            <TableControl>
+                <TableHeaders>
+                    <TableColumnHeader></TableColumnHeader>
+                    <TableColumnHeader></TableColumnHeader>
+                    <TableColumnHeader></TableColumnHeader>
+                    <TableColumnHeader></TableColumnHeader>
+                    <TableColumnHeader></TableColumnHeader>
+                    <TableColumnHeader></TableColumnHeader>
+                </TableHeaders>
+                <TableRowEntries>
+                    <TableRowEntry>
+                        <TableColumnItems>
+                            <TableColumnItem>
+                                <PropertyName>Active</PropertyName>
+                            </TableColumnItem>
+                            <TableColumnItem>
+                                <PropertyName>ManufacturernameChar</PropertyName>
+                            </TableColumnItem>
+                            <TableColumnItem>
+                                <PropertyName>UserFriendlyNameChar</PropertyName>
+                            </TableColumnItem>
+                            <TableColumnItem>
+                                <PropertyName>SerialNumberIDChar</PropertyName>
+                            </TableColumnItem>
+                            <TableColumnItem>
+                                <PropertyName>YearOfManufacture</PropertyName>
+                            </TableColumnItem>
+                            <TableColumnItem>
+                                <PropertyName>WeekOfManufacture</PropertyName>
+                            </TableColumnItem>
+                        </TableColumnItems>
+                    </TableRowEntry>
+                </TableRowEntries>
+            </TableControl>
+        </View>
+    </ViewDefinitions>
+</Configuration>
